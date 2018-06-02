@@ -1,4 +1,77 @@
+/* colors */
+/* Arrow */
+/* Fonts */
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* First Section */
 body {
   background-color: #efefef;
 }
 
+.header {
+  height: calc(100vh - 128px);
+  background-image: url("../images/backgrounds/table_phone.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #00000080;
+}
+
+.title-section h1 {
+  color: white;
+  font-family: Montserrat-Regular;
+  font-size: 3em;
+}
+
+.title-section p {
+  color: #ff1500;
+  font-family: Montserrat-Bold;
+  font-size: 1.75em;
+}
+
+.arrow-down-section {
+  position: absolute;
+  bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+  background-color: #ff1500;
+}
+
+.arrow-down-section div {
+  height: 15px;
+  width: 15px;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  margin-top: 17px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}

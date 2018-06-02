@@ -1,3 +1,81 @@
+/* colors */
+$darkred-color: #6a0000;
+$lightred-color: #ff1500;
+$dark-gray-blue-color: #2c3e50;
+$blue-black-color: #4d4d4d;
+$dark-gray-color: #7f8c8d;
+$gray-color: #efefef;
+$semi-dark: #00000080;
+
+
+/* Arrow */
+$down-holder-size: 53px;
+$arrow-down-size: 15px;
+$arrow-border-style: 3px solid white;
+
+
+/* Fonts */
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+/* First Section */
 body {
 	background-color: #efefef;
+}
+
+.header {
+	height: calc(100vh - 128px);
+	background-image: url("../images/backgrounds/table_phone.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.title-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $semi-dark;
+
+	h1 {
+		color: white;
+		font-family: Montserrat-Regular;
+		font-size: 3em;
+	}
+
+	p {
+		color: $lightred-color;
+		font-family: Montserrat-Bold;
+		font-size: 1.75em;
+	}
+}
+
+.arrow-down-section {
+	position: absolute;
+    bottom: 90px;
+    display: flex;
+    justify-content: center;
+	height: $down-holder-size;
+	width: $down-holder-size;
+	border-radius: 50%;
+	background-color: $lightred-color;
+
+	div {
+		height: $arrow-down-size;
+		width: $arrow-down-size;
+		border-left: $arrow-border-style;
+		border-bottom: $arrow-border-style;
+	    margin-top: 17px;
+		transform: rotate(-45deg);
+	}
 }

@@ -18,6 +18,19 @@
 		<script src="<?php print asset('js/home.js'); ?>"></script>
 	</head>
 	<body>
-		<div>Simple Test</div>
+		<div class="container-fluid">
+			<div class="row header">
+				<div class="col-sm-12 title-section">
+					<div class="text-center">
+						<h1>Worldwide Stories</h2>
+						<p>A new app from your friends at Luxotus.</p>
+					</div>
+					<a href="#" class="arrow-down-section">
+						<div></div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
 	</body>
 </html>
