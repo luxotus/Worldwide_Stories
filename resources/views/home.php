@@ -29,7 +29,14 @@
 						<div></div>
 					</a>
 				</div>
-				
+			</div>
+			<div class="row app-download-section">
+				<div class="col-md-8 text-right">
+					<h3>Download it FREE (for a limited time) for your Android</h3>
+				</div>
+				<a href="#" class="col-md-4 play-icon-holder">
+					<img src="<?php print asset('images/icons/play_icon.png'); ?>">
+				</a>
 			</div>
 		</div>
 	</body>

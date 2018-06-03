@@ -1,11 +1,17 @@
 /* colors */
 $darkred-color: #6a0000;
-$lightred-color: #ff1500;
+$lightred-color: #ff3c3c;
 $dark-gray-blue-color: #2c3e50;
 $blue-black-color: #4d4d4d;
 $dark-gray-color: #7f8c8d;
 $gray-color: #efefef;
 $semi-dark: #00000080;
+
+
+@mixin height-pair($size) {
+	height: $size;
+	line-height: $size;
+}
 
 
 /* Arrow */
@@ -35,7 +41,7 @@ body {
 
 .header {
 	height: calc(100vh - 128px);
-	background-image: url("../images/backgrounds/table_phone.JPG");
+	background-image: url("../images/backgrounds/example.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -77,5 +83,23 @@ body {
 		border-bottom: $arrow-border-style;
 	    margin-top: 17px;
 		transform: rotate(-45deg);
+	}
+}
+
+.app-download-section {
+	background-color: $lightred-color;
+
+	h3 {
+		@include height-pair(128px);
+		margin-bottom: 0;
+		color: white;
+	}
+
+	.play-icon-holder {
+		@include height-pair(128px);
+	}
+
+	img {
+		height: 58px;
 	}
 }
