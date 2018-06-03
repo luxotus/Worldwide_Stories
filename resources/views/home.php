@@ -86,6 +86,40 @@
 					<img src="<?php print asset('images/screens/share_phone.png'); ?>">
 				</div>
 			</div>
+			<div class="row newsletter-section">
+				<div class="tint col-12">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-6 middle-section text-center">
+						<p class="download-message">Organize the things you love. Socialist is the new app for iOS 7 that helps you create, collaborate and share lists all in one place.</p>
+						<img src="<?php print asset('images/icons/play_icon.png'); ?>">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<p class="newsletter-message text-center">Get the latest news from Socialist delivered straight to your inbox. Join our mailing list today.</p>
+								<form action="#">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name">
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<div class="form-group">
+												<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+											</div>
+										</div>
+									</div>
+									<button type="submit" class="btn btn-danger">Subscribe</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
