@@ -1,6 +1,7 @@
 /* colors */
 $darkred-color: #6a0000;
 $lightred-color: #ff3c3c;
+$light-gray-color: #f4f4f4;
 $dark-gray-blue-color: #2c3e50;
 $blue-black-color: #4d4d4d;
 $dark-gray-color: #7f8c8d;
@@ -33,10 +34,37 @@ $arrow-border-style: 3px solid white;
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons/icomoon.eot');
+  src:  url('../fonts/icons/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf') format('truetype'),
+    url('../fonts/icons/icomoon.woff') format('woff'),
+    url('../fonts/icons/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Icons */
+.icon-globe:before {
+  content: "\e900";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-share:before {
+  content: "\ea82";
+}
+
+
 
 /* First Section */
 body {
-	background-color: #efefef;
+	background-color: white;
 }
 
 .header {
@@ -102,4 +130,66 @@ body {
 	img {
 		height: 58px;
 	}
+}
+
+.feature-section {
+	padding-top: 100px;
+
+	.image-section {
+		height: 410px;
+	    overflow-y: hidden;
+
+		img {
+			height: 625px;
+		    width: 344.28px;
+		}
+	}
+
+	.text-section p {
+		width: 75%;
+		color: #9f9f9f;
+		text-align: left;
+		padding-top: 20px;
+		font-size: 1.25em;
+		line-height: 26.4px;
+	}
+}
+
+.feature-section:nth-child(even) {
+	border-top: 1px solid #e0e0e0;
+	background-color: $light-gray-color;
+
+	.image-section {
+		padding-left: 90px;
+	}
+
+	.text-section {
+	    padding-left: 8%;
+	}
+
+	.text-section p {
+		width: 78%;
+	}
+}
+
+
+.title-icon-section {
+	height: 40px;
+
+	span, h2 {
+		float: left;
+		line-height: 40px;
+	}
+
+	span {
+		color: $lightred-color;
+		font-family: 'icons';
+		font-size: 2em;
+	}
+
+	h2 {
+		padding-left: 12px;
+		font-family: Montserrat-Regular;
+	}
+
 }
