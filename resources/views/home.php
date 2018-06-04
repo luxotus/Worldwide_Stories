@@ -97,7 +97,7 @@
 						<div class="panel panel-default">
 							<div class="panel-body">
 								<p class="newsletter-message text-center">Get the latest news from Socialist delivered straight to your inbox. Join our mailing list today.</p>
-								<form action="#">
+								<form action="#" id="newsletter">
 									<div class="row">
 										<div class="col-sm-6">
 											<div class="form-group">
@@ -111,7 +111,7 @@
 										</div>
 										<div class="col-sm-12">
 											<div class="form-group">
-												<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+												<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
 											</div>
 										</div>
 									</div>

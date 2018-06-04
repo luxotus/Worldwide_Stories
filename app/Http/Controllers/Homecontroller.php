@@ -9,17 +9,15 @@ use App\Http\Controllers\ArticleController;
 class HomeController extends Controller 
 {
 
-    public function index() 
+    public function index(Request $request) 
     {	
-    	// $viewData = [
-    	// 	'miniArticleData' => $miniArticleData,
-    	// 	'pageTitle' => $this->getPageTitle(),
-    	// 	'subNav' => $subNav,
-    	// 	'allDataTypes' => $allDataTypes
-    	// ];
-
-     //    return view('home', $viewData);
         return view('home');
+    }
+
+    public function newsletter(Request $request) {
+        if ($request->isMethod('post')) {
+            return json_encode($request->all());
+        }
     }
 
 }
