@@ -216,7 +216,6 @@ body {
 }
 
 .newsletter-section {
-	height: 100vh;
 	background-image: url("../images/backgrounds/doodles.png");
 	background-repeat: repeat;
 
@@ -227,10 +226,11 @@ body {
 	}
 }
 .middle-section {
-	height: 400px;
+	height: inherit;
+	padding-top: 100px;
+	padding-bottom: 100px;
 
 	.download-message {
-		margin-top: 100px;
 		color: white;
 		font-family: Montserrat-Regular;
 		font-size: 1.25em;
@@ -260,7 +260,7 @@ body {
 	.newsletter-message {
 	    padding-left: 15px;
     	padding-right: 15px;
-    	font-size: $input-text-size;
+    	font-size: 1.25em;
 	}
 
 	input {
@@ -279,3 +279,46 @@ body {
 }
 
 
+.footer {
+	height: 80px;
+	background-color: $dark-gray-blue-color;
+
+	div {
+		overflow-y: hidden;
+	}
+
+	p, a {
+    	margin-bottom: 0;
+		color: white;
+		font-size: 1.25em;
+    	line-height: 80px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)  {
+	.app-download-section h3 {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-device-width: 768px) {
+	/* Fixing Logical CSS issues with bootstrap 4 */
+	.col-1 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 8.333333%;
+	    flex: 0 0 8.333333%;
+	    max-width: 8.333333%;
+	}
+
+	.col-10 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 83.333333%;
+	    flex: 0 0 83.333333%;
+	    max-width: 83.333333%;
+	}
+}

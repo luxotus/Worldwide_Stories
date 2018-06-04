@@ -34,7 +34,7 @@
 				<div class="col-md-8 text-right">
 					<h3>Download it FREE (for a limited time) for your Android</h3>
 				</div>
-				<a href="#" class="col-md-4 play-icon-holder">
+				<a href="https://play.google.com/store/apps/details?id=com.luxotus.worldwidestories" class="col-md-4 play-icon-holder">
 					<img src="<?php print asset('images/icons/play_icon.png'); ?>">
 				</a>
 			</div>
@@ -88,10 +88,12 @@
 			</div>
 			<div class="row newsletter-section">
 				<div class="tint col-12">
-					<div class="col-sm-3"></div>
-					<div class="col-sm-6 middle-section text-center">
+					<div class="col-1 col-sm-3"></div>
+					<div class="col-10 col-sm-6 middle-section text-center">
 						<p class="download-message">Organize the things you love. Socialist is the new app for iOS 7 that helps you create, collaborate and share lists all in one place.</p>
-						<img src="<?php print asset('images/icons/play_icon.png'); ?>">
+						<a href="https://play.google.com/store/apps/details?id=com.luxotus.worldwidestories">
+							<img src="<?php print asset('images/icons/play_icon.png'); ?>">
+						</a>
 						<div class="panel panel-default">
 							<div class="panel-body">
 								<p class="newsletter-message text-center">Get the latest news from Socialist delivered straight to your inbox. Join our mailing list today.</p>
@@ -118,6 +120,15 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-sm-2">
+					<p>&copy; 2018 Luxotus</p>
+				</div>
+				<div class="col-sm-8"></div>
+				<div class="col-sm-2 text-right">
+					<a href="mailto:example@email.com">Contact</a>
 				</div>
 			</div>
 		</div>
