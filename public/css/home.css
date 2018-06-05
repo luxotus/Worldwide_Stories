@@ -93,7 +93,7 @@ body {
 }
 
 .title-section p {
-  color: #ff3c3c;
+  color: #c60404;
   font-family: Montserrat-Bold;
   font-size: 1.75em;
 }
@@ -110,7 +110,7 @@ body {
   height: 53px;
   width: 53px;
   border-radius: 50%;
-  background-color: #ff3c3c;
+  background-color: #6a0000;
 }
 
 .arrow-down-section div {
@@ -124,7 +124,7 @@ body {
 }
 
 .app-download-section {
-  background-color: #ff3c3c;
+  background-color: #6a0000;
 }
 
 .app-download-section h3 {
@@ -193,7 +193,7 @@ body {
 }
 
 .title-icon-section span {
-  color: #ff3c3c;
+  color: #6a0000;
   font-family: 'icons';
   font-size: 2em;
 }
@@ -266,6 +266,7 @@ body {
   padding-right: 24px;
   padding-bottom: 12px;
   padding-left: 24px;
+  background-color: #6a0000;
   font-size: 1.5em;
 }
 
@@ -298,8 +299,8 @@ body {
 }
 
 .footer {
-  height: 80px;
-  background-color: #2c3e50;
+  height: 45px;
+  background-color: #0e0000;
 }
 
 .footer div {
@@ -309,8 +310,8 @@ body {
 .footer p, .footer a {
   margin-bottom: 0;
   color: white;
-  font-size: 1.25em;
-  line-height: 80px;
+  font-size: 1em;
+  line-height: 45px;
 }
 
 .footer a {

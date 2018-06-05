@@ -1,6 +1,6 @@
 /* colors */
 $darkred-color: #6a0000;
-$lightred-color: #ff3c3c;
+$lightred-color: #6a0000;
 $light-gray-color: #f4f4f4;
 $dark-gray-blue-color: #2c3e50;
 $blue-black-color: #4d4d4d;
@@ -109,7 +109,7 @@ body {
 	}
 
 	p {
-		color: $lightred-color;
+		color: #c60404;
 		font-family: Montserrat-Bold;
 		font-size: 1.75em;
 	}
@@ -274,6 +274,7 @@ body {
 		padding-right: 24px;
 		padding-bottom: 12px;
 		padding-left: 24px;
+		background-color: $lightred-color;
 		font-size: 1.5em;
 	}
 
@@ -309,8 +310,8 @@ body {
 }
 
 .footer {
-	height: 80px;
-	background-color: $dark-gray-blue-color;
+	height: 45px;
+	background-color: #0e0000;
 
 	div {
 		overflow-y: hidden;
@@ -319,8 +320,8 @@ body {
 	p, a {
     	margin-bottom: 0;
 		color: white;
-		font-size: 1.25em;
-    	line-height: 80px;
+		font-size: 1em;
+    	line-height: 45px;
 	}
 
 	a {
