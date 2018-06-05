@@ -276,8 +276,37 @@ body {
 		padding-left: 24px;
 		font-size: 1.5em;
 	}
+
+	button[type="submit"]:focus, 
+	button[type="submit"]:hover,
+	input:focus,
+	input:hover {
+		outline: none;
+	}
 }
 
+#newsletter.success {
+	input {
+		border: none;
+	    background-color: #f9fcf6 !important;
+	    color: #85c446;
+	    box-shadow: inset 0 0 0 1px rgba(133,196,70,.5);
+	}
+
+	button[type="submit"] {
+		background-color: #85c446;
+		border-color: #85c446;
+	}
+}
+
+#newsletter.error {
+	input {
+		border: none;
+	    background-color: #fff5f4 !important;
+	    color: #fd3c2b;
+	    box-shadow: inset 0 0 0 1px rgba(253,60,43,.5);
+	}
+}
 
 .footer {
 	height: 80px;

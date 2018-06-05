@@ -1,18 +1,32 @@
-function newsletterSubmit(firstName, lastName, email) {
+function newsletterSubmit(firstname, lastname, email) {
 	var sendData = {
-		firstName: firstName,
-		lastName: lastName,
+		firstname: firstname,
+		lastname: lastname,
 		email: email
 	};
 
 	$.post("newsletter", sendData, function(result) {
-		console.log(result);
+
+		if (result == 'Success') 
+		{
+			$("#newsletter").addClass("success");
+			$(".middle-section button[type='submit']").text("Success").attr("data-submitted", "success");
+		}
+		else
+		{
+			$("#newsletter").addClass("error");
+		}
+		
 	});
 }
 
 $(document).ready(function() {
 	$('#newsletter').submit(function () {
-		newsletterSubmit($("#first-name").val(), $("#last-name").val(), $("#email").val());
+		if ($(".middle-section button[type='submit']").attr("data-submitted") != "success") 
+		{
+			newsletterSubmit($("#first-name").val(), $("#last-name").val(), $("#email").val());
+		}
+		
 		return false;
 	});
 });
