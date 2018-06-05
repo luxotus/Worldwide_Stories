@@ -1,12 +1,12 @@
 /* colors */
 $darkred-color: #6a0000;
-$lightred-color: #6a0000;
+$lightred-color: #ca3030;
 $light-gray-color: #f4f4f4;
 $dark-gray-blue-color: #2c3e50;
 $blue-black-color: #4d4d4d;
 $dark-gray-color: #7f8c8d;
 $gray-color: #efefef;
-$semi-dark: #00000080;
+$semi-dark: #000000a6;
 
 
 /* Placeholder */
@@ -86,11 +86,12 @@ $arrow-border-style: 3px solid white;
 /* First Section */
 body {
 	background-color: white;
+	font-family: Montserrat-Regular;
 }
 
 .header {
 	height: calc(100vh - 128px);
-	background-image: url("../images/backgrounds/example.jpg");
+	background-image: url("../images/backgrounds/phone_notebook.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -109,7 +110,7 @@ body {
 	}
 
 	p {
-		color: #c60404;
+		color: $lightred-color;
 		font-family: Montserrat-Bold;
 		font-size: 1.75em;
 	}
@@ -222,7 +223,7 @@ body {
 	.tint {
 		display: flex;
 		height: inherit;
-		background-color: #6a0000ba;
+		background-color: #ae0f0fba;
 	}
 }
 .middle-section {

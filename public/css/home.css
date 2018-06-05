@@ -63,11 +63,12 @@
 /* First Section */
 body {
   background-color: white;
+  font-family: Montserrat-Regular;
 }
 
 .header {
   height: calc(100vh - 128px);
-  background-image: url("../images/backgrounds/example.jpg");
+  background-image: url("../images/backgrounds/phone_notebook.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -83,7 +84,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #00000080;
+  background-color: #000000a6;
 }
 
 .title-section h1 {
@@ -93,7 +94,7 @@ body {
 }
 
 .title-section p {
-  color: #c60404;
+  color: #ca3030;
   font-family: Montserrat-Bold;
   font-size: 1.75em;
 }
@@ -110,7 +111,7 @@ body {
   height: 53px;
   width: 53px;
   border-radius: 50%;
-  background-color: #6a0000;
+  background-color: #ca3030;
 }
 
 .arrow-down-section div {
@@ -124,7 +125,7 @@ body {
 }
 
 .app-download-section {
-  background-color: #6a0000;
+  background-color: #ca3030;
 }
 
 .app-download-section h3 {
@@ -193,7 +194,7 @@ body {
 }
 
 .title-icon-section span {
-  color: #6a0000;
+  color: #ca3030;
   font-family: 'icons';
   font-size: 2em;
 }
@@ -213,7 +214,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: inherit;
-  background-color: #6a0000ba;
+  background-color: #ae0f0fba;
 }
 
 .middle-section {
@@ -266,7 +267,7 @@ body {
   padding-right: 24px;
   padding-bottom: 12px;
   padding-left: 24px;
-  background-color: #6a0000;
+  background-color: #ca3030;
   font-size: 1.5em;
 }
 
