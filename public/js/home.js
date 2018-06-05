@@ -20,6 +20,7 @@ function newsletterSubmit(firstname, lastname, email) {
 	});
 }
 
+
 $(document).ready(function() {
 	$('#newsletter').submit(function () {
 		if ($(".middle-section button[type='submit']").attr("data-submitted") != "success") 
@@ -29,4 +30,11 @@ $(document).ready(function() {
 		
 		return false;
 	});
+
+	// Library: ScrollReveal -> https://github.com/jlmakes/scrollreveal
+	window.sr = ScrollReveal();
+	sr.reveal('.feature-section img', { duration: 1000, delay: 500 });
+	sr.reveal('.title-icon-section', { duration: 1000 });
+	sr.reveal('.feature-section .text-section p', { duration: 1000 });
+
 });
