@@ -48,7 +48,7 @@
 						<span class="icon-globe"></span>
 						<h2>Countries</h2>
 					</div>
-					<p>Create lists to organize the things you love. Restaurants, Films, Music, Shopping, Friends. We've integrated with partners to make your lists rich and actionable automatically. For example: Add a restaurant and watch it populate with location information, reviews, photos and then actions, like "call for a reservation."</p>
+					<p>So you probably have a favorite author in your country but do you have one in spain or france or russia? Didn't think so, hence why you should use our app. Explore the minds of authors worldwide all in one place.</p>
 				</div>
 			</div>
 			<div class="row feature-section feature-stories">
@@ -57,7 +57,7 @@
 						<span class="icon-book"></span>
 						<h2>Stories</h2>
 					</div>
-					<p>Create lists to organize the things you love. Restaurants, Films, Music, Shopping, Friends. We've integrated with partners to make your lists rich and actionable automatically. For example: Add a restaurant and watch it populate with location information, reviews, photos and then actions, like "call for a reservation."</p>
+					<p>From Love at first sight to scary stories from the past, we have it all. Get lost in narratives of vibrant characters that could spark the interest of just about any reader. </p>
 				</div>
 				<div class="col-sm-6 image-section right-section">
 					<img src="<?php print asset('images/screens/story_phone.png'); ?>">
@@ -72,7 +72,7 @@
 						<span class="icon-bookmark"></span>
 						<h2>Bookmarking</h2>
 					</div>
-					<p>Create lists to organize the things you love. Restaurants, Films, Music, Shopping, Friends. We've integrated with partners to make your lists rich and actionable automatically. For example: Add a restaurant and watch it populate with location information, reviews, photos and then actions, like "call for a reservation."</p>
+					<p>We know the stories can be long and you might not have the time to read it all in one sitting. So we created a feature that will allow you to save your position in the story and come back to it when ever you like. Making it much easier for you to finish stories on your own pace which is missing from 99% of story apps.</p>
 				</div>
 			</div>
 			<div class="row feature-section feature-share">
@@ -81,7 +81,7 @@
 						<span class="icon-share"></span>
 						<h2>Share</h2>
 					</div>
-					<p>Create lists to organize the things you love. Restaurants, Films, Music, Shopping, Friends. We've integrated with partners to make your lists rich and actionable automatically. For example: Add a restaurant and watch it populate with location information, reviews, photos and then actions, like "call for a reservation."</p>
+					<p>So you just finished your new favorite story and want to tell a friend about it. We provided you with a easy way to share stories using sms and your favorite social media platforms. </p>
 				</div>
 				<div class="col-sm-6 image-section right-section">
 					<img src="<?php print asset('images/screens/share_phone.png'); ?>">
@@ -91,13 +91,13 @@
 				<div class="tint col-12">
 					<div class="col-1 col-sm-3"></div>
 					<div class="col-10 col-sm-6 middle-section text-center">
-						<p class="download-message">Organize the things you love. Socialist is the new app for iOS 7 that helps you create, collaborate and share lists all in one place.</p>
+						<p class="download-message">Read stories from all of the world. Worldwide stories is the new app for android that helps you explore fascinating stories all in one place.</p>
 						<a href="https://play.google.com/store/apps/details?id=com.luxotus.worldwidestories">
 							<img src="<?php print asset('images/icons/play_icon.png'); ?>">
 						</a>
 						<div class="panel panel-default">
 							<div class="panel-body">
-								<p class="newsletter-message text-center">Get the latest news from Socialist delivered straight to your inbox. Join our mailing list today.</p>
+								<p class="newsletter-message text-center">Get the latest news from Luxotus delivered straight to your inbox. Join our mailing list today.</p>
 								<form action="#" id="newsletter">
 									<div class="row">
 										<div class="col-sm-6">
